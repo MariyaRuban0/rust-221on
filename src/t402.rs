@@ -1,7 +1,7 @@
 //1
 // Make it work
-#[test]
-use std::mem::size_of_val;
+//#[test]
+//use std::mem::size_of_val;
 fn test1() {
     let c1: char = 'a';//4 байта
     assert_eq!(size_of_val(&c1),4);
