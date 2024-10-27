@@ -8,7 +8,6 @@ fn test() {
             let is_horizontal = y == 0 || y == H - 1;
             let is_vertical = x == 0 || x == W - 1;
 
-            // Добавляем условие для основной и второстепенной диагоналей
             let is_main_diagonal = x == y * W / H;
             let is_secondary_diagonal = x == (H - 1 - y) * W / H;
 
@@ -22,4 +21,3 @@ fn test() {
         println!();
     }
 }
-
