@@ -14,6 +14,7 @@ mod t603;
 mod t604;
 mod pr8;
 mod pr5;
+mod t605;
 
 fn main() {
     println!("Hello, world!");
