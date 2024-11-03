@@ -24,6 +24,8 @@ mod t101;
 mod t102;
 mod t103;
 mod pr6;
+mod pr7;
+mod t104;
 
 fn main() {
     println!("Hello, world!");
