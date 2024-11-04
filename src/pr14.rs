@@ -1,19 +1,16 @@
 use std::collections::HashSet;
 
-// Структура точки на площині
 #[derive(Clone, Copy, Debug, Hash, Eq, PartialEq)]
 struct Point {
     x: i32,
     y: i32,
 }
 
-// Структура прямокутника на площині
 struct Rectangle {
-    a: Point, // ліва верхня точка
-    b: Point, // права нижня точка
+    a: Point,
+    b: Point,
 }
 
-// Функція для обчислення фактичної зайнятої площі
 fn area_occupied(xs: &Vec<Rectangle>) -> i32 {
     let mut occupied_points: HashSet<(i32, i32)> = HashSet::new();
 
@@ -28,7 +25,6 @@ fn area_occupied(xs: &Vec<Rectangle>) -> i32 {
     occupied_points.len() as i32
 }
 
-// Тестові дані
 fn test_data() -> Vec<Rectangle> {
     vec![
         Rectangle {
@@ -46,7 +42,6 @@ fn test_data() -> Vec<Rectangle> {
     ]
 }
 
-// Тест функції
 fn area_occupied_test() {
     let data = test_data();
     let occupied = area_occupied(&data);
