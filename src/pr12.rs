@@ -38,7 +38,6 @@ fn print_vector_info(data: &[i32]) {
 
     let (min_sum, index1, index2) = min_adjacent_sum(data);
 
-    // Вивід позначення мінімальної пари
     print!("indexes: ");
     for i in 0..data.len() {
         if i == index1 {
@@ -61,4 +60,3 @@ fn test() {
     let data = gen_random_vector(20);
     print_vector_info(&data);
 }
-//
