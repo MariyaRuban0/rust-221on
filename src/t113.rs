@@ -1,7 +1,7 @@
 //1
 // FILL in the blanks and FIX the errors
-//#[test]
 use std::collections::HashMap;
+#[test]
 fn test1() {
     let mut scores: HashMap<&str, i32> = HashMap::new();
     scores.insert("Sunface", 98);
