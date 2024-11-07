@@ -1,6 +1,6 @@
 //1
 // FILL in the blanks and FIX the errors
-#[test]
+//#[test]
 use std::collections::HashMap;
 fn test1() {
     let mut scores: HashMap<&str, i32> = HashMap::new();
