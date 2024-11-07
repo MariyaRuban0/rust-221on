@@ -39,6 +39,7 @@ mod pr15;
 mod hackerrank4;
 mod hackerrank5;
 mod t105;
+mod pr16;
 
 fn main() {
     println!("Hello, world!");
